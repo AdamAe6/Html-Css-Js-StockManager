@@ -1,0 +1,81 @@
+.top {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    position: absolute;
+    top: 0%;
+    margin-left: 1%;
+  }
+  
+  .image {
+    position: absolute;
+    left: 0%;
+    width: 10%;
+  }
+  
+  .h1 {
+    color: rgb(85, 54, 37) !important;
+  }
+  
+  .gauche {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: rgb(85, 54, 37);
+    padding: 2% 2% 2% 2%;
+    position: absolute;
+    top: 21%;
+    border-radius: 10px;
+  }
+  
+  .boutonValider {
+    background-color: green;
+    color: rgb(255, 255, 255);
+  }
+  
+  .info {
+    height: 7%;
+    width: 77%;
+    position: absolute;
+    top: 21%;
+    right: 0%;
+    background-color: rgb(85, 54, 37);
+    padding-top: 1%;
+    display: flex;
+    justify-content: start;
+    padding-left: 2%;
+    border-radius: 50px;
+  }
+  
+  .droite {
+    width: 77%;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    position: absolute;
+    right: 0%;
+    top: 31%;
+    background-color: white;
+  }
+  
+  .contenuBarre {
+    color: white;
+  }
+  
+  .contenuBarre {
+    display: flex;
+    margin-left: 3%;
+  }
+  .inputSearch {
+    height: 80%;
+    width: 40%;
+  }
+  
+  .stl {
+    border-radius: 10px;
+    border: white;
+  }
